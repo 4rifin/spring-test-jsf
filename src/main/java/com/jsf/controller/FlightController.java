@@ -16,6 +16,11 @@ import com.jsf.service.FlightService;
 @Named
 @ViewScoped
 public class FlightController implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2215097218630480418L;
+
 	private Flight flight = new Flight();
 
 	private List<Flight> flights = new ArrayList<>();
